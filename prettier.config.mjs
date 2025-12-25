@@ -1,8 +1,8 @@
 const config = {
   plugin: "prettier-plugin-tailwindcss",
   tailwindFunctions: ["mergetailwindclasses"],
-  tabwith: 2,
+  tabwidth: 2,
   printWidth: 80,
-  trailingCompma: "all",
+  trailingCommma: "all",
 };
 export default config;
