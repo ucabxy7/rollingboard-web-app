@@ -10,7 +10,8 @@
     "lint": "eslint",
     "format": "prettier --write .",
     "prepare": "husky",
-    "pre-commit": "npx lint-staged --config lint-staged.config.mjs" 
+    "type-check": "tsc --noEmit",
+    "pre-commit": "npx lint-staged --config lint-staged.config.mjs && npm run type-check" 
   },
   "dependencies": {
     "next": "16.1.1",
