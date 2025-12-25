@@ -6,15 +6,6 @@ const openSans = Open_Sans({
   weight: ["400", "600", "700"],
   subsets: ["latin"],
 });
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
